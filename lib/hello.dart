@@ -18,13 +18,13 @@ class HelloRectangle extends StatelessWidget {
     return Center(
         child: Container(
             color: Colors.greenAccent,
-            height: 400.0,
-            width: 300.0,
+            height: 100.0,
+            width: 100.0,
             child: Center(
                 child: Text(
               "Hello",
-              style: TextStyle(fontSize: 40.0),
-              textAlign: TextAlign.center,
+              style: TextStyle(fontSize: 20.0, fontStyle: FontStyle.italic, fontWeight: FontWeight.bold),
+              textAlign: TextAlign.end,
             ))));
   }
 }
