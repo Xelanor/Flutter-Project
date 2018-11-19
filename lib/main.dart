@@ -132,7 +132,7 @@ class ChatScreenState extends State<ChatScreen> with TickerProviderStateMixin {
 
 class ChatMessage extends StatelessWidget {
   ChatMessage({this.text, this.animationController});
-  final String texts;
+  final String text;
   final AnimationController animationController;
   @override
   Widget build(BuildContext context) {
